@@ -3,6 +3,7 @@ version: '3.8'
 services:
   fastapi:
     build: .
+    image: agreekgeek/homework8
     volumes:
       - ./qr_codes:/myapp/qr_codes # Maps ./qr_codes from your host to /myapp/qr_codes in the container
       - ./:/myapp/
