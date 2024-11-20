@@ -1,17 +1,8 @@
 # RestAPI for Creating QR Codes
 
-## I am unable to fully pass GitHub Actions with Error code 1 during the scanning process.
-![image](https://github.com/user-attachments/assets/75427d0e-e841-43eb-bc92-96c835f73cfa)
+## Github Actions
+![image](https://github.com/user-attachments/assets/cc92291f-18f5-47d0-838f-729fce690a1a)
 
-# Install
-1. Clone
-2. Make virtual environment:  python3 -m venv venv
-3. Activate virtual environment: source venv/bin/activate
-4. Install requirements: pip install -r requirements.txt
-5. **IMPORTANT** run: mkdir qr_codes to create a qr codes directory to save in, permissions will be messed up and the docker container won't be able to write to the qr_codes directory if you don't.
-6. Note: make sure docker is started
-7. run pytest locally to check that it works locally
-8. Start the app with docker compose up --build
-9. Goto http://localhost/docs to view openapi spec documentation
-10. Click "authorize" input username: admin password: secret
-11. Test making,  retrieving, and deleting QR codes on the spec page.
+## Docker Repository
+![image](https://github.com/user-attachments/assets/5e02cf51-ae1a-4b73-aca2-c87b65b062f6)
+
