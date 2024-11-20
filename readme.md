@@ -1,6 +1,7 @@
 # RestAPI for Creating QR Codes
 
 ## I am unable to fully pass GitHub Actions with Error code 1 during the scanning process.
+![image](https://github.com/user-attachments/assets/75427d0e-e841-43eb-bc92-96c835f73cfa)
 
 # Install
 1. Clone
